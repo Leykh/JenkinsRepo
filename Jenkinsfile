@@ -1,6 +1,7 @@
 pipeline {
     agent any
     stages {
+            echo "stages : github"
         stage('Build') {
             steps {
                 echo "Etape de build"
